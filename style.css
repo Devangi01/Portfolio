@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Ubuntu+Mono:wght@700&display=swap');
-/*
-font-family: 'Roboto Mono',
-monospace;
-font-family: 'Ubuntu Mono',
-monospace;
-#F7F3F5
-*/
+
 :root {
     
     --text-color: #231566;
@@ -184,7 +178,6 @@ html{
     margin-top: 2vh;
     white-space: nowrap;
     color: var(--text-color);
-    border-right: 2px solid var(--highlight-color);
     overflow: hidden;
     animation: typing 6s infinite alternate;
 }
@@ -254,9 +247,9 @@ html{
 .off-container{
     padding-top: 1rem;
     padding-bottom: 2rem;
-    background-color: rgba(255, 255, 255, 0.526);
-    border: 3px solid rgb(157, 23, 77);
-    box-shadow: rgba(252, 166, 31, 0.45) 0px 0px 0px 3px;
+    background-color: rgba(255, 255, 255, 0.107);
+    /* border: 3px solid rgb(157, 23, 77); */
+    /* box-shadow: rgba(252, 166, 31, 0.45) 0px 0px 0px 3px; */
 }
 .primary-link {
     margin-right: 1rem;
